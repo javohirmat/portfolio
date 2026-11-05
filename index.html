@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Javohir Matniyazov</title>
+<meta name="description" content="Javohir Matniyazov builds Tomaris and open Uzbek-language AI infrastructure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="fade" style="--d:0">
+    <h1>Javohir Matniyazov</h1>
+    <p class="muted">Founder &amp; lead engineer, Tomaris</p>
+  </header>
+
+  <section class="fade" style="--d:1">
+    <h2>About</h2>
+    <p>I'm from Uzbekistan. I build Tomaris, sovereign AI for Uzbek banks and companies, and I release open tools and datasets so language models work better in Uzbek.</p>
+    <p class="links">
+      <a href="https://github.com/javohirmat">GitHub</a>
+      <a href="https://huggingface.co/javohirmat">Hugging Face</a>
+      <a href="https://tomaris.ai">tomaris.ai</a>
+      <a href="mailto:javohirmatniyazov528@gmail.com">Email</a>
+    </p>
+  </section>
+
+  <section class="fade" style="--d:2">
+    <h2>Projects</h2>
+    <ul class="list">
+      <li>
+        <a href="https://tomaris.ai">Tomaris</a>
+        <p>An AI assistant for banks, trained for Uzbek, that answers only from documents the team has approved and hands the chat to a human operator when it can't. Built because banks here run their AI on foreign APIs; Tomaris can be deployed inside their own infrastructure.</p>
+      </li>
+      <li>
+        <a href="https://github.com/javohirmat/uzmorph">uzmorph</a>
+        <p>An improved Uzbek morphological analyzer built on Apertium (v0.9.0, GPL-3.0). It scores 93.5% on its test set versus 87.8% for ZirhUzMorph; along the way I <a class="inline" href="https://github.com/apertium/apertium-uzb/issues/18">reported 23 bugs</a> to upstream apertium-uzb.</p>
+      </li>
+      <li>
+        <a href="https://huggingface.co/datasets/javohirmat/UzGenBench">UzGenBench</a>
+        <p>An open-ended Uzbek benchmark where the model has to write the answer: 162 code, 74 math and logic, and 100 safety items. Made because most Uzbek evaluations are multiple choice.</p>
+      </li>
+      <li>
+        <a href="https://huggingface.co/datasets/javohirmat/uzbek-legal-corpus">Uzbek Legal Corpus</a>
+        <p>25 cleaned, audited texts of Uzbekistan's Constitution, codes and major laws from lex.uz, split into 7,368 articles as JSONL. Public domain (CC0), for research and model training.</p>
+      </li>
+      <li>
+        <span class="name">UzBLiMP <span class="tag">in progress</span></span>
+        <p>A benchmark of Uzbek grammatical minimal pairs, built with a collaborator, to test whether models know Uzbek grammar.</p>
+      </li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
