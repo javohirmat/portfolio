@@ -19,7 +19,7 @@
 
   <section class="fade" style="--d:1">
     <h2>About</h2>
-    <p>I'm from Uzbekistan. I build Tomaris, sovereign AI for Uzbek banks and companies, and I release open tools and datasets so language models work better in Uzbek.</p>
+    <p>I'm from Uzbekistan. I'm building Tomaris, a privacy gateway that lets Uzbek banks use AI, and I release open tools and datasets so language models work better in Uzbek.</p>
     <p class="links">
       <a href="https://github.com/javohirmat">GitHub</a>
       <a href="https://huggingface.co/javohirmat">Hugging Face</a>
@@ -33,15 +33,15 @@
     <ul class="list">
       <li>
         <a href="https://tomaris.ai">Tomaris</a>
-        <p>An AI assistant for banks, trained for Uzbek, that answers only from documents the team has approved and hands the chat to a human operator when it can't. Built because banks here run their AI on foreign APIs; Tomaris can be deployed inside their own infrastructure.</p>
+        <p>What I'm building: an on-prem gateway for Uzbek banks that masks card numbers, PINFL and phone numbers before prompts reach AI models, then restores them in the reply. A pilot with Kapitalbank is planned; the demo on the site uses scripted replies.</p>
       </li>
       <li>
         <a href="https://github.com/javohirmat/uzmorph">uzmorph</a>
-        <p>An improved Uzbek morphological analyzer built on Apertium (v0.9.0, GPL-3.0). It scores 93.5% on its test set versus 87.8% for ZirhUzMorph; along the way I <a class="inline" href="https://github.com/apertium/apertium-uzb/issues/18">reported 23 bugs</a> to upstream apertium-uzb.</p>
+        <p>An improved Uzbek morphological analyzer built on Apertium (v0.9.0, GPL-3.0). It gets 93.5% lemma+features accuracy on 1,731 held-out tokens, versus 87.8% for ZirhUzMorph; the eval labels are mostly model-built, with limited human review. Along the way I <a class="inline" href="https://github.com/apertium/apertium-uzb/issues/18">reported 23 bugs</a> to upstream apertium-uzb.</p>
       </li>
       <li>
         <a href="https://huggingface.co/datasets/javohirmat/UzGenBench">UzGenBench</a>
-        <p>An open-ended Uzbek benchmark. Instead of picking from options, the model has to write the answer, across 162 code, 74 math and logic, and 100 safety items.</p>
+        <p>An open-ended Uzbek benchmark. Instead of picking from options, the model has to write the answer, across 162 code, 74 math and logic, and 100 safety items. Access is gated; the safety answer keys are unreviewed drafts.</p>
       </li>
       <li>
         <a href="https://huggingface.co/datasets/javohirmat/uzbek-legal-corpus">Uzbek Legal Corpus</a>
